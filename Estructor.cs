@@ -7,7 +7,7 @@
 
     public void MostarInfo()
     {
-        Console.WriteLine($"Nombre del libro: {this.Nombre}\nAutor del libro: {this.Autor}\nAño de publicación: {this.AñoPublicado}");
+        Console.WriteLine($"Nombre del libro: {this.Nombre}\nAutor del libro: {this.Autor}\nAño de publicación: {this.AñoPublicado}\n");
     }
 }
 struct Estante
@@ -22,19 +22,15 @@ struct Estante
         Estantes.Add("Drama", Drama);
     }
 
-
-
-
-
-
     public void MostrarLibrosPorGenero(string genero)
     {
+
         if (Estantes.ContainsKey(genero))
         {
-            Console.WriteLine($"Libros de {genero}:");
+            Console.WriteLine($"Libros de {genero}:\n");
             foreach (var libro in Estantes[genero])
             {
-                Console.WriteLine(libro.Nombre);
+                libro.MostarInfo();
             }
         }
         else

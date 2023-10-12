@@ -4,28 +4,22 @@
     {
         static void Main(string[] args)
         {
-            int menu =1;
+            string genero;
+            int menu=0;
             Bibliteca sanjuan = new Bibliteca();
             
             do
             {
-                
-                sanjuan.biblio(menu);
-
-                Console.WriteLine("Biblioteca");
-                Console.WriteLine("1. Poemas\n2. Ciencia ficción\n3. Novelas clásicas\n4. Filosofía\n5. Drama\n6. Salir\n");
-
-                while (!int.TryParse(Console.ReadLine(), out menu) || (menu<1|| menu>6))
-                {
-
-                    Console.WriteLine("Ingrese valor valido\n");
-                    Console.WriteLine("1. Poemas\n2. Ciencia ficción\n3. Novelas clásicas\n4. Filosofía\n5. Drama\n6. Salir\n");
-
-
-                }
-
-
-            } while (menu !=6);   
+                Console.WriteLine("Biblioteca\nIngrese el genero que desea");
+                Console.WriteLine("Poesía, Ficción, Clásicos, Filosofía, Drama\n");
+                genero = Console.ReadLine();
+               Console.WriteLine();
+                sanjuan.biblio(genero);
+                Console.ReadKey();
+                Console.Clear();
+                Console.WriteLine("Ingrese \"1\" para salir, sino solo presione \"enter\"");
+                int.TryParse(Console.ReadLine(), out menu);
+            } while (menu !=1);   
         }
     }
 }
