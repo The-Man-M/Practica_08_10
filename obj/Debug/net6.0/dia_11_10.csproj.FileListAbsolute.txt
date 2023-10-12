@@ -13,3 +13,17 @@ E:\progra\dia_11_10\obj\Debug\net6.0\refint\dia_11_10.dll
 E:\progra\dia_11_10\obj\Debug\net6.0\dia_11_10.pdb
 E:\progra\dia_11_10\obj\Debug\net6.0\dia_11_10.genruntimeconfig.cache
 E:\progra\dia_11_10\obj\Debug\net6.0\ref\dia_11_10.dll
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\bin\Debug\net6.0\dia_11_10.exe
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\bin\Debug\net6.0\dia_11_10.deps.json
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\bin\Debug\net6.0\dia_11_10.runtimeconfig.json
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\bin\Debug\net6.0\dia_11_10.dll
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\bin\Debug\net6.0\dia_11_10.pdb
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\obj\Debug\net6.0\dia_11_10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\obj\Debug\net6.0\dia_11_10.AssemblyInfoInputs.cache
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\obj\Debug\net6.0\dia_11_10.AssemblyInfo.cs
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\obj\Debug\net6.0\dia_11_10.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\obj\Debug\net6.0\dia_11_10.dll
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\obj\Debug\net6.0\refint\dia_11_10.dll
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\obj\Debug\net6.0\dia_11_10.pdb
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\obj\Debug\net6.0\dia_11_10.genruntimeconfig.cache
+C:\Users\Carlo\OneDrive\Documentos\GitHub\dia_11_10\obj\Debug\net6.0\ref\dia_11_10.dll

@@ -1,5 +1,6 @@
 ﻿struct libro
 {
+
     public string Nombre;
     public string Autor;
     public int AñoPublicado;
@@ -11,18 +12,43 @@
 }
 struct Estante
 {
-    List<libro> libros = new List<libro> ();
-    public Estante(List<libro> poesia)
+    private Dictionary<string, List<libro>> Estantes = new Dictionary<string, List<libro>>();
+    public Estante(List<libro> poesia, List<libro> ciencia_ficcion, List<libro> Novela_clasica, List<libro> Filosofia, List<libro> Drama)
     {
-        libros.Add(poesia);
-    }
-    public void poesia()
-    {
-        foreach (var poesia in libros)
-        {
-            Console.WriteLine(poesia.Nombre);
-        }
+        Estantes.Add("Poesía", poesia);
+        Estantes.Add("Ficción", ciencia_ficcion);
+        Estantes.Add("Clásica", Novela_clasica);
+        Estantes.Add("Filosofía", Filosofia);
+        Estantes.Add("Drama", Drama);
     }
 
+
+
+
+
+
+    public void MostrarLibrosPorGenero(string genero)
+    {
+        if (Estantes.ContainsKey(genero))
+        {
+            Console.WriteLine($"Libros de {genero}:");
+            foreach (var libro in Estantes[genero])
+            {
+                Console.WriteLine(libro.Nombre);
+            }
+        }
+        else
+        {
+            Console.WriteLine($"No se encontraron libros en el género {genero}.");
+        }
+    }
+}
+enum Genero
+{
+    Poesía,
+    Ficción,
+    Clásica,
+    Filosofía,
+    Drama,
 
 }

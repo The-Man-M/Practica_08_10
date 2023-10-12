@@ -9,8 +9,8 @@
             
             do
             {
-                sanjuan.nom(menu);
-
+                
+                sanjuan.biblio(menu);
 
                 Console.WriteLine("Biblioteca");
                 Console.WriteLine("1. Poemas\n2. Ciencia ficción\n3. Novelas clásicas\n4. Filosofía\n5. Drama\n6. Salir\n");
